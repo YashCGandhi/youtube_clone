@@ -32,7 +32,7 @@ const VideoDetail = () => {
     snippet: { title, channelTitle, channelId },
     statistics: { viewCount, likeCount },
   } = videoDetail;
-
+  // console.log(viewCount);
   return (
     <Box minHeight="95vh">
       <Stack direction={{ xs: "column", md: "row" }}>
